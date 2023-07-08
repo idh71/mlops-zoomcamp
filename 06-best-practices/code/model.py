@@ -114,3 +114,6 @@ def init(prediction_stream_name: str, run_id: str, test_run: bool):
     model_service = ModelService(model=model, model_version=run_id, callbacks=callbacks)
 
     return model_service
+
+
+#
